@@ -7,6 +7,7 @@ public class Animal {
     private int age;
 
 
+
     //基準②:コンストラクタ
     public Animal() {
     }

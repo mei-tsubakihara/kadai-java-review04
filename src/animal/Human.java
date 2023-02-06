@@ -10,7 +10,8 @@ public class Human extends Animal implements Thinkable{
     public Human() {
     }
 
-    public Human(String hobby) {
+    public Human(String name, int age, String hobby) {
+        super(name, age);
         this.hobby = hobby;
     }
 
